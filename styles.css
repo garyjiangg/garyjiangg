@@ -1,0 +1,185 @@
+/* Reset Styles */
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Navigation Styling (Aligns to Top-Left) */
+nav {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Name Styling */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-links a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+  opacity: 0.6;
+}
+
+/* Blank Content Area */
+#content {
+  position: absolute;
+  top: 40px;
+  left: 250px; /* Adjust this to push content right */
+  width: calc(100% - 300px);
+  height: 100vh;
+}
+
+
+
+/* Slideshow Container */
+.slideshow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  position: relative;
+}
+
+/* Artwork Image */
+#slideImage {
+  display: block;
+  max-width:69%;
+  height: auto;
+  border-radius: 5px;
+  margin:0 auto;
+  z-index: 5;
+  opacity: 1;
+}
+
+
+/* Caption Styling */
+#caption {
+  font-size: 12px;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-style: normal;
+}
+
+#slideImage, #caption {
+  transition: opacity 0.8s ease-in-out; /*  Smooth 0.8s transition */
+  opacity: 1;
+}
+
+/* Fading Out Effect */
+.fade-out {
+  opacity: 0; /*  Fades out completely */
+}
+
+/* Fading In Effect */
+.fade-in {
+  opacity: 1; /*  Fades back in */
+}
+
+
+#caption em {
+  font-style: italic;
+}
+
+/* Bottom Navigation (Arrows) */
+.bottom-nav {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px; /* Moves below caption */
+  padding-left: 10px;
+}
+
+/* Previous Button (Force Left) */
+.bottom-nav .prev {
+  transform: none;
+  order: 0;
+}
+
+/* Next Button (Force Right) */
+.bottom-nav .next {
+  transform: none;
+  order: 0;
+}
+
+/* Previous & Next Buttons */
+.bottom-nav button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-variant-numeric: lining-nums;
+  background: none; /* Removes circle background */
+  border: none; /* No border */
+  font-size: 18px; /* Reduce size */
+  color: black;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  padding: 0px; /* Remove extra padding */
+  margin: 0px; /* Prevent extra spacing */
+  width: auto; /* Only take up necessary space */
+}
+/* Hover Effect */
+.bottom-nav button:hover {
+  opacity: 0.6;
+}
+
+
+/* About Page Styles */
+.about-container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/*  Reduce font size of the bio */
+.bio {
+  font-size: 10px;  /*  Adjust this to make it smaller */
+  color: #333;
+  line-height: 1.5;  /* Adjust spacing for readability */
+  text-align: justify;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.logo a {
+  text-decoration: none; /* ✅ Removes underline */
+  color: black; /* ✅ Keeps text color */
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer; /* ✅ Makes it look clickable */
+}
+
+.logo a:hover {
+  opacity: 0.7; /* ✅ Adds subtle hover effect */
+}
