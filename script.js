@@ -130,7 +130,7 @@ function loadContent(page) {
       if (slides[page]) {
           setupSlideshow(page);
       }
-  }, 500); 
+  }, 200); 
 }
 
 
@@ -176,7 +176,7 @@ function setupSlideshow(page) {
               caption.classList.remove("fade-out");
               caption.classList.add("fade-in");
           }, 50);
-      }, 500); //  Match this to the CSS transition duration
+      }, 200); //  Match this to the CSS transition duration
   };
 }
 
