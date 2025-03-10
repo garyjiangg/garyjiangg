@@ -79,7 +79,7 @@ const slides = {
     }
   ],
   paintings: [
-      { src: "images/self.jpg", 
+      { src: "images/Self.jpg", 
       caption: "<em>Untitled</em>, 2023, 24\" x 30\", Oil on Canvas"
     },
       { src: "images/Shelf_I.jpg", 
@@ -176,7 +176,7 @@ function setupSlideshow(page) {
               caption.classList.remove("fade-out");
               caption.classList.add("fade-in");
           }, 50);
-      }, 500); // ✅ Match this to the CSS transition duration
+      }, 500); //  Match this to the CSS transition duration
   };
 }
 
