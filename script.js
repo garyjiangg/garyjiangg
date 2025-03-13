@@ -53,10 +53,10 @@ const pages = {
   about: `
     <section class="about-container">
         <p class="bio">
-        Memory is fragile, layered, and elusive. It surfaces unexpectedly—an echo of a moment, vivid for an instant before dissolving. My process is one of repetition and release. Threading, interweaving, and suspending the fibers, I enter a state of emptiness—where thought dissolves, and intuition takes over. Some days, the placement of each string feels deliberate, governed by an unseen logic of recollection. Other times, the work unfolds organically, guided by waves of memories that drift in and out.
+       Memory is fragile, layered, and elusive. It surfaces unexpectedly—an echo of a moment, vivid for an instant before dissolving. My process is one of repetition and release. I enter a state of emptiness—where thought dissolves, and intuition takes over. Some days, placement feels deliberate, governed by an unseen logic of recollection. Other times, the work unfolds organically, guided by waves of memories that drift in and out.
         </p>
         <p class="bio">
-        This act of threading is more than construction; it is an excavation. I seek to give form to something tangible—memories that linger beneath the skin, woven into the body, impossible to articulate but ever-present. Through process, labor, and repetition, I attempt to materialize what is otherwise ephemeral: how memory knots, frays, and sketches across time. 
+       I seek to give form to something intangible—memories that linger beneath the skin, woven into the body, impossible to articulate but ever-present. Through process, labor, and repetition, I attempt to materialize what is otherwise ephemeral: how memory knots, frays, and stretches across time.
         </p>
     </section>
   `
